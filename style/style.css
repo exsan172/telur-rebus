@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#imgEgg {
+    width: 10em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.telur_rebus {
+    width: 300px;
+    margin-top: 5px;
+}
+
+.title_telur {
+    padding: 20px;
+}
+
+.list_btn, #stop_timer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.tmbl_action {
+    background-color: #1abc9c;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 8px;
+}
+
+@media (max-width: 575.98px) {
+    .list_btn {
+        flex-direction: column;
+    }
+
+    .telur_rebus {
+        width: 100%;
+    }
+}
+
+.tips_box {
+    margin-bottom: 5px;
+    font-size: x-small;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
